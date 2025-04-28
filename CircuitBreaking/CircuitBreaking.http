@@ -1,0 +1,6 @@
+@CircuitBreaking_HostAddress = http://localhost:5038
+
+GET {{CircuitBreaking_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

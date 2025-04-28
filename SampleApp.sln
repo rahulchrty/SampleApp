@@ -4,6 +4,8 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.PollyRetry", "SampleApp.WebServiceOne\SampleApp.PollyRetry.csproj", "{B82861A1-4963-4308-9EF6-BDEA42F14416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaking", "CircuitBreaking\CircuitBreaking.csproj", "{B7157479-6BA3-4F11-A430-328550FDDED5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{B82861A1-4963-4308-9EF6-BDEA42F14416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B82861A1-4963-4308-9EF6-BDEA42F14416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B82861A1-4963-4308-9EF6-BDEA42F14416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7157479-6BA3-4F11-A430-328550FDDED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7157479-6BA3-4F11-A430-328550FDDED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7157479-6BA3-4F11-A430-328550FDDED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7157479-6BA3-4F11-A430-328550FDDED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
